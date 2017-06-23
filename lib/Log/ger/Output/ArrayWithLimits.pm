@@ -33,6 +33,8 @@ sub get_hooks {
 1;
 # ABSTRACT: Log to array, with some limits applied
 
+=for Pod::Coverage ^(.+)$
+
 =head1 SYNOPSIS
 
  use Log::ger::Output ArrayWithLimits => (
